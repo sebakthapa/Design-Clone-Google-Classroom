@@ -12,7 +12,7 @@ const classesData = [
 		section:"Rhino",
 		hostName:"Ravi Sigdel",
 		img:"./profiles/pp1.jpeg",
-		background:"./bg/bg3.jpg",
+		background:"./bg/bg3.jpg", 
 	},
 	{
 		className:"Basic Maths",
