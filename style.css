@@ -10,7 +10,11 @@ body{
 	background: var(--white);
 }
 
+
 nav.nav-bar {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
 	background: white;
 	display: flex;
 	justify-content: space-between;
@@ -106,6 +110,11 @@ nav.nav-bar .right .profile img{
 }
 .apps-icon i:nth-child(3){
 	margin-top: -13px;
+}
+
+div.main-body{
+	position: absolute;
+	top: 4rem;
 }
 
 
@@ -252,6 +261,7 @@ nav.nav-left .enrolled ul li .icon-un{
 	height: 3rem;
 	padding: 2rem 1rem;
 	font-size: 1.2rem;
+	/* margin-top: 4rem; */
 }
 
 .top-menu div{
