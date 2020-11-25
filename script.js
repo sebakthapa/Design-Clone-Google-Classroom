@@ -1,6 +1,13 @@
 // lady: 5,7,9
 const classesData = [
 	{
+		className:"11 Science",
+		section:"Tiger",
+		hostName:"Sebak Thapa",
+		img:"mf.png",
+		background:"./bg/bg1.jpg",
+	},
+	{
 		className:"Chemistry",
 		section:"Rhino",
 		hostName:"Anita baral",
@@ -12,7 +19,7 @@ const classesData = [
 		section:"Rhino",
 		hostName:"Ravi Sigdel",
 		img:"./profiles/pp1.jpeg",
-		background:"./bg/bg3.jpg", 
+		background:"./bg/bg3.jpg",
 	},
 	{
 		className:"Basic Maths",
@@ -126,4 +133,16 @@ document.body.addEventListener('click',(e)=>{
 		if(navLeftWidth < e.x){
 			navLeft.classList.remove('shown');
 		}
+})
+
+
+window.addEventListener('scroll',()=>{
+	const scroll = window.scrollY;
+	const navBar = document.querySelector('nav.nav-bar');
+
+	if(scroll>0){
+		navBar.style.boxShadow = '5px 0px 7px 2px rgba(0, 0, 0, .2)';
+	}else{
+		navBar.style.boxShadow = 'none';
+	}
 })
