@@ -1,13 +1,6 @@
 // lady: 5,7,9
 const classesData = [
 	{
-		className:"11 Science",
-		section:"Tiger",
-		hostName:"Sebak Thapa",
-		img:"mf.png",
-		background:"./bg/bg1.jpg",
-	},
-	{
 		className:"Chemistry",
 		section:"Rhino",
 		hostName:"Anita baral",
