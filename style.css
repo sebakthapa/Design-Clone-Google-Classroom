@@ -114,6 +114,7 @@ nav.nav-bar .right .profile img{
 
 div.main-body{
 	position: absolute;
+	width:100%;
 	top: 4rem;
 }
 
