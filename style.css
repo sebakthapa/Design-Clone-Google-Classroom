@@ -286,8 +286,9 @@ nav.nav-left .enrolled ul li .icon-un{
 	background: var(--white);
 	width: 100%;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 	flex-wrap: wrap;
+	max-width:1500px;
 }
 
 .card-container .card{
